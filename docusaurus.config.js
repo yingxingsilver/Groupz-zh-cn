@@ -32,7 +32,7 @@ const config = {
         label: 'Français',
         htmlLang: 'fr-FR',
       },
-      zh_CN: {
+      'zh-CN': {
         label: '简体中文',
         htmlLang: 'zh_CN',
       },

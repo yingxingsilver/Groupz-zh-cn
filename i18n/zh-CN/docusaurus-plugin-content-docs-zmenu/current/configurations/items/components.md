@@ -705,7 +705,7 @@ Minecraft Wiki：[lodestone_tracker](https://minecraft.wiki/w/Data_component_for
 | 键 | 类型 | 默认值 | 描述 |
 |---|------|--------|------|
 | tracked | 布尔值 | true | 是否追踪磁石 |
-| target.post | 列表<整数> | - | 目标坐标 [x, y, z] |
+| target.post | 列表-整数 | - | 目标坐标 [x, y, z] |
 | target.dimension | 字符串 | - | 世界名称 |
 
 ```yaml

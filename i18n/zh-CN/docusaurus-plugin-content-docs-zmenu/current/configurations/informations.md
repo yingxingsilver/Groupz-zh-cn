@@ -1,12 +1,12 @@
 ---
 sidebar_position: 1
 title: 配置信息
-description: 关于如何配置 zMenu 及其配置理念的必要信息。
+description: 关于如何配置 zMenu 的必要信息。
 ---
 
 # 配置信息
 
-本页面提供关于如何配置 zMenu 及其配置理念的必要信息。
+本页面提供关于如何配置 zMenu 的必要信息。
 
 ## 理解 YAML
 
