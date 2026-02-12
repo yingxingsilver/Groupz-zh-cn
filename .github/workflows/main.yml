@@ -22,7 +22,7 @@ jobs:
 
       # 3. 安装依赖（--frozen-lockfile 确保锁文件一致）
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn
 
       # 4. 构建静态文件
       - name: Build project构建
