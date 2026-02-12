@@ -1,0 +1,37 @@
+name: Deploy to Netlify
+
+on:
+  push:
+    branches: [ develop ]  # 按需调整分支
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout-检出代码
+        uses: actions/checkout@v4
+
+      # 2. 设置 Node.js + Yarn 缓存（加速后续构建）
+      - name: Setup Node.js-设置 Node.js + Yarn 缓存
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'      # 按项目需求调整
+          cache: 'yarn'           # 自动缓存 node_modules
+
+      # 3. 安装依赖（--frozen-lockfile 确保锁文件一致）
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      # 4. 构建静态文件
+      - name: Build project构建
+        run: yarn build
+
+      # 5. 部署到 Netlify（官方推荐方式）
+      - name: Deploy to Netlify-部署
+        uses: netlify/actions/cli@v1  # 官方维护，2026年仍有效
+        with:
+          args: deploy --dir=dist --prod --site-id=${{ secrets.NETLIFY_SITE_ID }}
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
