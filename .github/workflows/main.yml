@@ -13,24 +13,21 @@ jobs:
       - name: Checkout-检出代码
         uses: actions/checkout@v4
 
-      # 2. 设置 Node.js + Yarn 缓存（加速后续构建）
-      - name: Setup Node.js-设置 Node.js + Yarn 缓存
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'      # 按项目需求调整
-          cache: 'yarn'           # 自动缓存 node_modules
+          node-version: '20'
+          cache: 'npm'  # 改为 npm 缓存
 
-      # 3. 安装依赖（--frozen-lockfile 确保锁文件一致）
       - name: Install dependencies
-        run: yarn
+        run: npm ci  # 使用 npm 安装（更严格，适合 CI）
 
-      # 4. 构建静态文件
-      - name: Build project构建
-        run: yarn build
+      - name: Build project
+        run: npm run build
 
       # 5. 部署到 Netlify（官方推荐方式）
       - name: Deploy to Netlify-部署
-        uses: nwtgck/actions-netlify@v2.1  # 官方维护，2026年仍有效
+        uses: nwtgck/actions-netlify@v2.1
         with:
           args: deploy --dir=dist --prod --site-id=${{ secrets.NETLIFY_SITE_ID }}
         env:
