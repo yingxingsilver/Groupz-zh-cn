@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.zquestsSidebar.category.Configurations": {
+    "message": "Configurations",
+    "description": "The label for category 'Configurations' in sidebar 'zquestsSidebar'"
+  },
+  "sidebar.zquestsSidebar.category.Development": {
+    "message": "Development",
+    "description": "The label for category 'Development' in sidebar 'zquestsSidebar'"
+  }
+}

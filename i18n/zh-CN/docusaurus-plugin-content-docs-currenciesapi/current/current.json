@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.currenciesapiSidebar.doc.Introduction": {
+    "message": "Introduction",
+    "description": "The label for the doc item 'Introduction' in sidebar 'currenciesapiSidebar', linking to the doc introduction"
+  },
+  "sidebar.currenciesapiSidebar.doc.Installation": {
+    "message": "Installation",
+    "description": "The label for the doc item 'Installation' in sidebar 'currenciesapiSidebar', linking to the doc installation"
+  },
+  "sidebar.currenciesapiSidebar.doc.Usage Guide": {
+    "message": "Usage Guide",
+    "description": "The label for the doc item 'Usage Guide' in sidebar 'currenciesapiSidebar', linking to the doc usage"
+  },
+  "sidebar.currenciesapiSidebar.doc.Currencies Reference": {
+    "message": "Currencies Reference",
+    "description": "The label for the doc item 'Currencies Reference' in sidebar 'currenciesapiSidebar', linking to the doc currencies"
+  }
+}

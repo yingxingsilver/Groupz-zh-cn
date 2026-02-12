@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.sarahSidebar.category.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label for category 'Getting Started' in sidebar 'sarahSidebar'"
+  },
+  "sidebar.sarahSidebar.category.Usage": {
+    "message": "Usage",
+    "description": "The label for category 'Usage' in sidebar 'sarahSidebar'"
+  }
+}

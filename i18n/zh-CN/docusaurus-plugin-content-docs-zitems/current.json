@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.zitemsSidebar.doc.Introduction": {
+    "message": "Introduction",
+    "description": "The label for the doc item 'Introduction' in sidebar 'zitemsSidebar', linking to the doc introduction"
+  },
+  "sidebar.zitemsSidebar.doc.Installation": {
+    "message": "Installation",
+    "description": "The label for the doc item 'Installation' in sidebar 'zitemsSidebar', linking to the doc installation"
+  },
+  "sidebar.zitemsSidebar.doc.Commands & Permissions": {
+    "message": "Commands & Permissions",
+    "description": "The label for the doc item 'Commands & Permissions' in sidebar 'zitemsSidebar', linking to the doc commands-permissions"
+  },
+  "sidebar.zitemsSidebar.doc.Item Configuration": {
+    "message": "Item Configuration",
+    "description": "The label for the doc item 'Item Configuration' in sidebar 'zitemsSidebar', linking to the doc items"
+  },
+  "sidebar.zitemsSidebar.doc.Runes": {
+    "message": "Runes",
+    "description": "The label for the doc item 'Runes' in sidebar 'zitemsSidebar', linking to the doc runes"
+  }
+}

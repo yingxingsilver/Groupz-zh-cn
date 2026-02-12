@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.zjobsSidebar.doc.Introduction": {
+    "message": "Introduction",
+    "description": "The label for the doc item 'Introduction' in sidebar 'zjobsSidebar', linking to the doc introduction"
+  },
+  "sidebar.zjobsSidebar.doc.Installation": {
+    "message": "Installation",
+    "description": "The label for the doc item 'Installation' in sidebar 'zjobsSidebar', linking to the doc installation"
+  },
+  "sidebar.zjobsSidebar.doc.Job Configuration": {
+    "message": "Job Configuration",
+    "description": "The label for the doc item 'Job Configuration' in sidebar 'zjobsSidebar', linking to the doc jobs"
+  },
+  "sidebar.zjobsSidebar.doc.Actions & Rewards": {
+    "message": "Actions & Rewards",
+    "description": "The label for the doc item 'Actions & Rewards' in sidebar 'zjobsSidebar', linking to the doc actions"
+  },
+  "sidebar.zjobsSidebar.doc.Commands & Permissions": {
+    "message": "Commands & Permissions",
+    "description": "The label for the doc item 'Commands & Permissions' in sidebar 'zjobsSidebar', linking to the doc commands-permissions"
+  }
+}

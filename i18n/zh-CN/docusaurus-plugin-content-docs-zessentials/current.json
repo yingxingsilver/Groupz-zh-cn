@@ -1,0 +1,18 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.zessentialsSidebar.category.Configuration": {
+    "message": "Configuration",
+    "description": "The label for category 'Configuration' in sidebar 'zessentialsSidebar'"
+  },
+  "sidebar.zessentialsSidebar.category.Modules": {
+    "message": "Modules",
+    "description": "The label for category 'Modules' in sidebar 'zessentialsSidebar'"
+  },
+  "sidebar.zessentialsSidebar.category.Development": {
+    "message": "Development",
+    "description": "The label for category 'Development' in sidebar 'zessentialsSidebar'"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "title": {
+    "message": "GroupeZ Wiki",
+    "description": "导航栏标题"
+  },
+  "logo.alt": {
+    "message": "GroupeZ 标志",
+    "description": "导航栏 Logo 的替代文本"
+  },
+  "item.label.Plugins": {
+    "message": "插件",
+    "description": "导航栏项目：插件"
+  },
+  "item.label.Projets": {
+    "message": "项目",
+    "description": "导航栏项目：项目（法语）"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "导航栏项目：Discord"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "导航栏项目：GitHub"
+  },
+  "item.label.zAntiAutoClick": {
+    "message": "zAntiAutoClick",
+    "description": "导航栏项目：zAntiAutoClick（反自动点击）"
+  },
+  "item.label.zAuctionHouse": {
+    "message": "zAuctionHouse",
+    "description": "导航栏项目：zAuctionHouse（拍卖行）"
+  },
+  "item.label.zCookieCliker": {
+    "message": "zCookieCliker",
+    "description": "导航栏项目：zCookieCliker（饼干点击器）"
+  },
+  "item.label.zCrate": {
+    "message": "zCrate",
+    "description": "导航栏项目：zCrate（战利品箱）"
+  },
+  "item.label.zDrawer": {
+    "message": "zDrawer",
+    "description": "导航栏项目：zDrawer（储物箱）"
+  },
+  "item.label.zEssentials": {
+    "message": "zEssentials",
+    "description": "导航栏项目：zEssentials（基础功能）"
+  },
+  "item.label.zHead": {
+    "message": "zHead",
+    "description": "导航栏项目：zHead（玩家头颅）"
+  },
+  "item.label.zItems": {
+    "message": "zItems",
+    "description": "导航栏项目：zItems（自定义物品）"
+  },
+  "item.label.zItemStacker": {
+    "message": "zItemStacker",
+    "description": "导航栏项目：zItemStacker（物品堆叠）"
+  },
+  "item.label.zJobs": {
+    "message": "zJobs",
+    "description": "导航栏项目：zJobs（职业系统）"
+  },
+  "item.label.zKoth": {
+    "message": "zKoth",
+    "description": "导航栏项目：zKoth（占领点）"
+  },
+  "item.label.zMenu": {
+    "message": "zMenu",
+    "description": "导航栏项目：zMenu（菜单系统）"
+  },
+  "item.label.zQuests": {
+    "message": "zQuests",
+    "description": "导航栏项目：zQuests（任务系统）"
+  },
+  "item.label.zShop": {
+    "message": "zShop",
+    "description": "导航栏项目：zShop（商店系统）"
+  },
+  "item.label.zSpawner": {
+    "message": "zSpawner",
+    "description": "导航栏项目：zSpawner（刷怪笼）"
+  },
+  "item.label.zTextGenerator": {
+    "message": "zTextGenerator",
+    "description": "导航栏项目：zTextGenerator（文本生成器）"
+  },
+  "item.label.zVault": {
+    "message": "zVault",
+    "description": "导航栏项目：zVault（保险库）"
+  },
+  "item.label.zVoteParty": {
+    "message": "zVoteParty",
+    "description": "导航栏项目：zVoteParty（投票派对）"
+  },
+  "item.label.SuperiorSkyBlock-zMenu": {
+    "message": "SuperiorSkyBlock-zMenu",
+    "description": "导航栏项目：SuperiorSkyBlock-zMenu"
+  },
+  "item.label.CurrenciesAPI": {
+    "message": "CurrenciesAPI",
+    "description": "导航栏项目：CurrenciesAPI（货币 API）"
+  },
+  "item.label.Sarah": {
+    "message": "Sarah",
+    "description": "导航栏项目：Sarah"
+  },
+  "item.label.groupez.dev": {
+    "message": "groupez.dev",
+    "description": "导航栏项目：groupez.dev"
+  },
+  "item.label.serveur-minecraft-vote.fr": {
+    "message": "serveur-minecraft-vote.fr",
+    "description": "导航栏项目：serveur-minecraft-vote.fr"
+  }
+}
